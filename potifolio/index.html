@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/png.jpg" alt="avatar da Isabelle" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Eu sou Isabelle_</p> 
+        <h1>Eu estudo programação</h1>
+        <p>Eu sou estudante e faço curso de computação no Alura, eu mexo com p5.js e o Scratch, ainda estou cursando essa área. Veja os projetos que eu já desenvolvi!</p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">p5.js</p>
+            <p class="badge bg-secondary">Scratch</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/WhatsApp Image 2025-04-16 at 20.03.58 (1).jpeg" class="card-img-top" alt="Imagem do projeto de um aplicativo para pets">
+                    <div class="card-body">
+                        <h5 class="card-title">Criação de um aplicativo para pets</h5>
+                        <p class="card-text"> Esse projeto é de um aplicativo para  nossos pets. Nesse projeto usamos o Figma como nosso principal criador para o aplicativo</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/WhatsApp Image 2025-04-16 at 20.21.46.jpeg" class="card-img-top" alt="Imagem do desenvolvimento de um portfólio">
+                    <div class="card-body">
+                        <h5 class="card-title">Desenvolvendo uma ferramenta de estudo interativa</h5>
+                        <p class="card-text"> Esse projeto é em base para criar um portifolio atravez do VsCode, o objetivo é criar uma ferramenta interativa para quem estiver acessando o portifolio possa mexer, entrar e ver a pagina de forma pratica.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Criação de um aplicativo para pets</h5>
+                    <button type="button"
+                class="modal-body">
+                    <p> Esse projeto é de um aplicativo para  nossos pets. Nesse projeto usamos o Figma como nosso principal criador para o aplicativo.</p>
+                    <p>Este projeto consiste no desenvolvimento de um aplicativo voltado para o cuidado e gerenciamento da rotina dos nossos pets. A proposta é criar uma plataforma prática e intuitiva que permita aos tutores organizarem informações essenciais sobre seus animais de estimação, como histórico de vacinas, agendamento de consultas veterinárias, lembretes de alimentação, banho e passeios, além de dicas de cuidados e bem-estar. O foco está em oferecer uma experiência amigável e funcional para facilitar o dia a dia de quem convive com pets, promovendo mais saúde e atenção para os animais.</p>
+                    <p>Durante a fase de criação do aplicativo, utilizamos o Figma como nossa principal ferramenta de design. Com ele, conseguimos montar toda a estrutura visual do app, desde a criação do layout das telas até a prototipação de fluxos de navegação. Isso nos permitiu testar a interface de forma interativa antes mesmo do início do desenvolvimento em código, garantindo que a usabilidade fosse pensada em cada detalhe. O uso do Figma também facilitou o trabalho em equipe, permitindo colaboração em tempo real e maior agilidade na validação das ideias.</p>
+                    <img src="img/WhatsApp Image 2025-04-16 at 20.03.58 (1).jpeg" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de um aplicativo para pets">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://github.com/isaferdua">Ver projeto ao vivo</a>
+                    <a href="https://github.com/isaferdua">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Desenvolvendo uma ferramenta de estudo interativa</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p> Esse projeto é em base para criar um portifolio atravez do VsCode, o objetivo é criar uma ferramenta interativa para quem estiver acessando o portifolio possa mexer, entrar e ver a pagina de forma pratica
+                    </p>
+                    <p>Este projeto tem como objetivo a criação de um portfólio digital desenvolvido no Visual Studio Code, com foco na interatividade e na experiência do usuário. Ao contrário de páginas estáticas tradicionais, este portfólio será uma ferramenta prática e dinâmica, permitindo que o visitante explore as informações de forma envolvente e intuitiva.</p>
+                    <p>A ideia é apresentar não apenas informações pessoais e profissionais, mas também proporcionar uma navegação fluida entre seções como "Sobre Mim", "Projetos", "Habilidades" e "Contato". Cada parte do site será construída com atenção à usabilidade e ao design responsivo, garantindo que funcione bem em qualquer dispositivo, seja no computador, no tablet ou no celular.</p>
+                    <p>Além disso, a interatividade será um dos pilares centrais do projeto. Animações suaves, efeitos de transição, modo escuro/claro e elementos com resposta ao clique ou ao passar do mouse serão incorporados para tornar a experiência do usuário mais rica e moderna. Na seção de projetos, o visitante poderá visualizar exemplos práticos com descrições, imagens e links para repositórios ou páginas externas. Já na área de contato, haverá um formulário funcional que permitirá o envio de mensagens diretamente por meio do site.</p>
+                    <p>O desenvolvimento será feito com tecnologias modernas como HTML, CSS e JavaScript, podendo incluir bibliotecas como React ou frameworks de estilização como Tailwind CSS, dependendo da necessidade. A ideia é que o portfólio não apenas apresente as habilidades técnicas do desenvolvedor, mas também funcione como uma demonstração prática dessas competências.Este projeto representa uma junção entre criatividade, técnica e experiência do usuário, oferecendo uma forma mais interativa e envolvente de apresentar o trabalho e a trajetória profissional de quem o desenvolve.</p>
+                    <img src="img/WhatsApp Image 2025-04-16 at 20.21.46.jpeg" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto da criação de um portifolio">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://github.com/isaferdua/">Ver projeto ao
+                        vivo</a>
+                    <a href="https://github.com/isaferdua">Ver código do
+                        projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/isaferdua">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2025. Produzido por Isabelle Fernandes.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
